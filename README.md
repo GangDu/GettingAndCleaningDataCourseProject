@@ -18,7 +18,8 @@
 
 3 Run the run_analysis.R by source() function.
 
-4 The outcome will be display in RStudio by View() function and the 'tidy_data.txt' file will be save in the same folder as the run_analys.R.
+4 The outcome will be display in RStudio by View() function and the 'tidy_data.txt' file will be save in the same folder as the 
+  run_analys.R.
 
 ## Note
 
