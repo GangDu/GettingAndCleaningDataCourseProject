@@ -48,10 +48,10 @@ The set of variables that were estimated from these signals are:
 
 2 Extracts only the measurements on the mean and standard deviation for each measurement.
 
-3 Use descriptive activity names("Walking", "Walking_Upstairs",  "Walking_Downstairs", "Sitting", "Standing", "Laying") 
+3 Uses descriptive activity names("Walking", "Walking_Upstairs",  "Walking_Downstairs", "Sitting", "Standing", "Laying") 
   to name the activities in the data set
 
-4 Use changed names from Features.txt set variable names.
+4 Uses changed names from 'Features.txt' file set variable names.
 
 5 From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each   subject.
 
