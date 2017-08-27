@@ -23,5 +23,5 @@
 ## Note
 
 * The location of the required files can be change, but you need to change the 'filepath' variable value on the run_analysis.R.
-  the defult location of reading file is the location of 'run_analysis.R', that mean that you should 
+  The defult location of reading file is the location of 'run_analysis.R', that mean that you should 
   place the required files and run_analysis.R in the same folder.
