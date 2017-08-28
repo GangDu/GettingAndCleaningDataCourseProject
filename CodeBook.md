@@ -1,13 +1,12 @@
-
 # Code Book
 
 ## Data Sources
 
 The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist. Using its embedded accelerometer and gyroscope, we captured 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50Hz. The experiments have been video-recorded to label the data manually. 
 
-## Features selection
+## Data preprocessing
 
-The features selected for this database come from the accelerationelerometer and angularvelocityscope 3-axial raw signals tacceleration-xyz and tangularvelocity-xyz. These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the accelerationelerationeleration signal was then separated into body and gravity accelerationeleration signals (tbodyacceleration-xyz and tGravityacceleration-xyz) using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
+The features selected for this database come from the accelerationelerometer and gyroscope 3-axial raw signals tacceleration-xyz and tangularvelocity-xyz. These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the accelerationelerationeleration signal was then separated into body and gravity accelerationeleration signals (tbodyacceleration-xyz and tGravityacceleration-xyz) using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
 
 Subsequently, the body linear accelerationeleration and angular velocity were derived in time to obtain Jerk signals (tbodyaccelerationjerk-xyz and tbodyangularvelocityjerk-xyz). Also the magnitudenitude of these three-dimensional signals were calculated using the Euclidean norm (tbodyaccelerationmagnitude, tgravityaccelerationmagnitude, tbodyaccelerationjerkmagnitude, tbodyangularvelocitymagnitude, tbodyangularvelocityjerkmagnitude). 
 
@@ -18,28 +17,98 @@ Finally a Fast Fourier Transform (FFT) was applied to some of these signals prod
 These signals were used to estimate variables of the feature vector for each pattern:  
 '-xyz' is used to denote 3-axial signals in the X, Y and Z directions.
 
-* tbodyacceleration-xyz
-* tgravityacceleration-xyz
-* tbodyaccelerationjerk-xyz
-* tbodyangularvelocity-xyz
-* tbodyangularvelocityjerk-xyz
-* tbodyaccelerationmagnitude
-* tgravityaccelerationmagnitude
-* tbodyaccelerationjerkmagnitude
-* tbodyangularvelocitymagnitude
-* tbodyangularvelocityjerkmagnitude
-* fbodyacceleration-xyz
-* fbodyaccelerationjerk-xyz
+* tbodyacceleration-mean-xyz
+    time domain body acceleration mean value in X, Y and Z directions
+    
+* tbodyacceleration-standarddeviation-xyz
+    time domain body acceleration standard deviation in X, Y and Z directions
+    
+* tgravityacceleration-mean-xyz
+    time domain gravity acceleration mean value in X, Y and Z directions
+    
+* tgravityacceleration-standarddeviation-xyz
+    time domain gravity acceleration standard deviation in X, Y and Z directions
+    
+* tbodyaccelerationjerk-mean-xyz
+    time domain body acceleration Jerk signals mean value in X, Y and Z directions
+    
+* tbodyaccelerationjerk-standarddeviation-xyz
+    time domain body acceleration Jerk signals standard deviation in X, Y and Z directions
+    
+* tbodyangularvelocity-mean-xyz
+    time domain body angular velocity mean value in X, Y and Z directions
+    
+* tbodyangularvelocity-standarddeviation-xyz
+    time domain body angular velocity standard deviation in X, Y and Z directions
+    
+* tbodyangularvelocityjerk-mean-xyz
+    time domain body angular velocity Jerk signals mean in X, Y and Z directions
+    
+* tbodyangularvelocityjerk-standarddeviation-xyz
+    time domain body angular velocity Jerk signals standard deviation in X, Y and Z directions
+    
+* tbodyaccelerationmagnitude-mean
+    time domain body acceleration magnitude mean value
+    
+* tbodyaccelerationmagnitude-standarddeviation
+    time domain body acceleration magnitude standard deviation
+
+* tgravityaccelerationmagnitude-mean
+    time domain gravity acceleration magnitude mean value
+
+* tgravityaccelerationmagnitude-standarddeviation
+    time domain gravity acceleration magnitude standard deviation
+
+* tbodyaccelerationjerkmagnitude-mean
+    time domain body acceleration Jerk signals magnitude mean value
+
+* tbodyaccelerationjerkmagnitude-standarddeviation
+    time domain body acceleration Jerk signals magnitude standard deviation
+
+* tbodyangularvelocitymagnitude-mean
+    time domain body angular velocity magnitude mean value
+
+* tbodyangularvelocitymagnitude-standarddeviation
+    time domain body angular velocity magnitude standard deviation
+    
+* tbodyangularvelocityjerkmagnitude-mean
+    time domain body angular velocity Jerk signals magnitude mean value
+    
+* tbodyangularvelocityjerkmagnitude-standarddeviation
+    time domain body angular velocity Jerk signals magnitude standard deviation
+    
+* fbodyacceleration-mean-xyz
+    frequency domain body acceleration mean value in X, Y and Z directions
+    
+* fbodyacceleration-standarddeviation-xyz
+    frequency domain body acceleration standard deviation in X, Y and Z directions
+    
+* fbodyaccelerationjerk-mean-xyz
+    frequency domain body acceleration Jerk signals mean value in X, Y and Z directions
+    
+* fbodyaccelerationjerk-standarddeviation-xyz
+    frequency domain body acceleration mean value in X, Y and Z directions
+    
 * fbodyangularvelocity-xyz
+    frequency domain body acceleration mean value in X, Y and Z directions
+* fbodyangularvelocity-xyz
+
 * fbodyaccelerationmagnitude
+
+* fbodyaccelerationmagnitude
+
 * fbodyaccelerationjerkmagnitude
+
+* fbodyaccelerationjerkmagnitude
+
 * fbodyangularvelocitymagnitude
+
+* fbodyangularvelocitymagnitude
+
 * fbodyangularvelocityjerkmagnitude
 
-The set of variables that were estimated from these signals are: 
+* fbodyangularvelocityjerkmagnitude
 
-* mean: Mean value
-* standarddeviation: Standard deviation
 
 ## The Process Of Cleaning Up The Data
 
