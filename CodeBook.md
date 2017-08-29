@@ -14,13 +14,15 @@ Finally a Fast Fourier Transform (FFT) was applied to some of these signals prod
 
 ## Variable Name And Description
 
-These signals were used to estimate variables of the feature vector for each pattern:  
-'-xyz' is used to denote 3-axial signals in the X, Y and Z directions.
-
+- activity
+    - activity labels
+    - Value Range: ["Walking", "Walking_Upstairs",  "Walking_Downstairs", "Sitting", "Standing", "Laying"]
+- subject
+    - the subject who performed the activity for each window sample
+    - Value Range: [1,30], no unit.
 - tbodyacceleration-mean-xyz
     - time domain body acceleration mean value in X, Y and Z directions
     - Value Range: [-1,1], no unit.
-    
 - tbodyacceleration-standarddeviation-xyz
     - time domain body acceleration standard deviation in X, Y and Z directions
     - Value Range: [-1,1], no unit.  
