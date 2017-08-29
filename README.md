@@ -12,13 +12,13 @@
 
 ## How to use run_analysis.R script
 
-1 Place the required files and run_analysis.R in the same folder.
+1. Place the required files and run_analysis.R in the same folder.
 
-2 Open the run_analysis.R by RStudio, do not forget setting Working Directory to the location of run_analysis.R.
+2. Open the run_analysis.R by RStudio, do not forget setting Working Directory to the location of run_analysis.R.
 
-3 Run the run_analysis.R by source() function.
+3. Run the run_analysis.R by source() function.
 
-4 The outcome will be display in RStudio by View() function and the 'tidy_data.txt' file will be save in the same folder as the 
+4. The outcome will be display in RStudio by View() function and the 'tidy_data.txt' file will be save in the same folder as the 
   run_analys.R.
 
 ## Note
