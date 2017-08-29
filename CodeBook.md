@@ -20,9 +20,10 @@ These signals were used to estimate variables of the feature vector for each pat
 - tbodyacceleration-mean-xyz
     - time domain body acceleration mean value in X, Y and Z directions
     - Value Range: [-1,1], no unit.
+    
 - tbodyacceleration-standarddeviation-xyz
     - time domain body acceleration standard deviation in X, Y and Z directions
-    - Value Range: [-1,1], no unit.
+    - Value Range: [-1,1], no unit.  
 - tgravityacceleration-mean-xyz
     - time domain gravity acceleration mean value in X, Y and Z directions
     - Value Range: [-1,1], no unit.
