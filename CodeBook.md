@@ -17,98 +17,108 @@ Finally a Fast Fourier Transform (FFT) was applied to some of these signals prod
 These signals were used to estimate variables of the feature vector for each pattern:  
 '-xyz' is used to denote 3-axial signals in the X, Y and Z directions.
 
-* tbodyacceleration-mean-xyz
-    time domain body acceleration mean value in X, Y and Z directions
-    
-* tbodyacceleration-standarddeviation-xyz
-    time domain body acceleration standard deviation in X, Y and Z directions
-    
-* tgravityacceleration-mean-xyz
-    time domain gravity acceleration mean value in X, Y and Z directions
-    
-* tgravityacceleration-standarddeviation-xyz
-    time domain gravity acceleration standard deviation in X, Y and Z directions
-    
-* tbodyaccelerationjerk-mean-xyz
-    time domain body acceleration Jerk signals mean value in X, Y and Z directions
-    
-* tbodyaccelerationjerk-standarddeviation-xyz
-    time domain body acceleration Jerk signals standard deviation in X, Y and Z directions
-    
-* tbodyangularvelocity-mean-xyz
-    time domain body angular velocity mean value in X, Y and Z directions
-    
-* tbodyangularvelocity-standarddeviation-xyz
-    time domain body angular velocity standard deviation in X, Y and Z directions
-    
-* tbodyangularvelocityjerk-mean-xyz
-    time domain body angular velocity Jerk signals mean in X, Y and Z directions
-    
-* tbodyangularvelocityjerk-standarddeviation-xyz
-    time domain body angular velocity Jerk signals standard deviation in X, Y and Z directions
-    
-* tbodyaccelerationmagnitude-mean
-    time domain body acceleration magnitude mean value
-    
-* tbodyaccelerationmagnitude-standarddeviation
-    time domain body acceleration magnitude standard deviation
-
-* tgravityaccelerationmagnitude-mean
-    time domain gravity acceleration magnitude mean value
-
-* tgravityaccelerationmagnitude-standarddeviation
-    time domain gravity acceleration magnitude standard deviation
-
-* tbodyaccelerationjerkmagnitude-mean
-    time domain body acceleration Jerk signals magnitude mean value
-
-* tbodyaccelerationjerkmagnitude-standarddeviation
-    time domain body acceleration Jerk signals magnitude standard deviation
-
-* tbodyangularvelocitymagnitude-mean
-    time domain body angular velocity magnitude mean value
-
-* tbodyangularvelocitymagnitude-standarddeviation
-    time domain body angular velocity magnitude standard deviation
-    
-* tbodyangularvelocityjerkmagnitude-mean
-    time domain body angular velocity Jerk signals magnitude mean value
-    
-* tbodyangularvelocityjerkmagnitude-standarddeviation
-    time domain body angular velocity Jerk signals magnitude standard deviation
-    
-* fbodyacceleration-mean-xyz
-    frequency domain body acceleration mean value in X, Y and Z directions
-    
-* fbodyacceleration-standarddeviation-xyz
-    frequency domain body acceleration standard deviation in X, Y and Z directions
-    
-* fbodyaccelerationjerk-mean-xyz
-    frequency domain body acceleration Jerk signals mean value in X, Y and Z directions
-    
-* fbodyaccelerationjerk-standarddeviation-xyz
-    frequency domain body acceleration mean value in X, Y and Z directions
-    
-* fbodyangularvelocity-xyz
-    frequency domain body acceleration mean value in X, Y and Z directions
-* fbodyangularvelocity-xyz
-
-* fbodyaccelerationmagnitude
-
-* fbodyaccelerationmagnitude
-
-* fbodyaccelerationjerkmagnitude
-
-* fbodyaccelerationjerkmagnitude
-
-* fbodyangularvelocitymagnitude
-
-* fbodyangularvelocitymagnitude
-
-* fbodyangularvelocityjerkmagnitude
-
-* fbodyangularvelocityjerkmagnitude
-
+- tbodyacceleration-mean-xyz
+    - time domain body acceleration mean value in X, Y and Z directions
+    - Value Range: [-1,1], no unit.
+- tbodyacceleration-standarddeviation-xyz
+    - time domain body acceleration standard deviation in X, Y and Z directions
+    - Value Range: [-1,1], no unit.
+- tgravityacceleration-mean-xyz
+    - time domain gravity acceleration mean value in X, Y and Z directions
+    - Value Range: [-1,1], no unit.
+- tgravityacceleration-standarddeviation-xyz
+    - time domain gravity acceleration standard deviation in X, Y and Z directions
+    - Value Range: [-1,1], no unit.
+- tbodyaccelerationjerk-mean-xyz
+    - time domain body acceleration Jerk signals mean value in X, Y and Z directions
+    - Value Range: [-1,1], no unit.
+- tbodyaccelerationjerk-standarddeviation-xyz
+    - time domain body acceleration Jerk signals standard deviation in X, Y and Z directions
+    - Value Range: [-1,1], no unit.
+- tbodyangularvelocity-mean-xyz
+    - time domain body angular velocity mean value in X, Y and Z directions
+    - Value Range: [-1,1], no unit.
+- tbodyangularvelocity-standarddeviation-xyz
+    - time domain body angular velocity standard deviation in X, Y and Z directions
+    - Value Range: [-1,1], no unit.
+- tbodyangularvelocityjerk-mean-xyz
+    - time domain body angular velocity Jerk signals mean in X, Y and Z directions
+    - Value Range: [-1,1], no unit.
+- tbodyangularvelocityjerk-standarddeviation-xyz
+    - time domain body angular velocity Jerk signals standard deviation in X, Y and Z directions
+    - Value Range: [-1,1], no unit.
+- tbodyaccelerationmagnitude-mean
+    - time domain body acceleration magnitude mean value
+    - Value Range: [-1,1], no unit.
+- tbodyaccelerationmagnitude-standarddeviation
+    - time domain body acceleration magnitude standard deviation
+    - Value Range: [-1,1], no unit.
+- tgravityaccelerationmagnitude-mean
+    - time domain gravity acceleration magnitude mean value
+    - Value Range: [-1,1], no unit.
+- tgravityaccelerationmagnitude-standarddeviation
+    - time domain gravity acceleration magnitude standard deviation
+    - Value Range: [-1,1], no unit.
+- tbodyaccelerationjerkmagnitude-mean
+    - time domain body acceleration Jerk signals magnitude mean value
+    - Value Range: [-1,1], no unit.
+- tbodyaccelerationjerkmagnitude-standarddeviation
+    - time domain body acceleration Jerk signals magnitude standard deviation
+    - Value Range: [-1,1], no unit.
+- tbodyangularvelocitymagnitude-mean
+    - time domain body angular velocity magnitude mean value
+    - Value Range: [-1,1], no unit.
+- tbodyangularvelocitymagnitude-standarddeviation
+    - time domain body angular velocity magnitude standard deviation
+    - Value Range: [-1,1], no unit.
+- tbodyangularvelocityjerkmagnitude-mean
+    - time domain body angular velocity Jerk signals magnitude mean value
+    - Value Range: [-1,1], no unit.
+- tbodyangularvelocityjerkmagnitude-standarddeviation
+    - time domain body angular velocity Jerk signals magnitude standard deviation
+    - Value Range: [-1,1], no unit.
+- fbodyacceleration-mean-xyz
+    - frequency domain body acceleration mean value in X, Y and Z directions
+    - Value Range: [-1,1], no unit.
+- fbodyacceleration-standarddeviation-xyz
+    - frequency domain body acceleration standard deviation in X, Y and Z directions
+    - Value Range: [-1,1], no unit.
+- fbodyaccelerationjerk-mean-xyz
+    - frequency domain body acceleration Jerk signals mean value in X, Y and Z directions
+    - Value Range: [-1,1], no unit.
+- fbodyaccelerationjerk-standarddeviation-xyz
+    - frequency domain body acceleration mean value in X, Y and Z directions
+    - Value Range: [-1,1], no unit.
+- fbodyangularvelocity-mean-xyz
+    - frequency domain body angular velocity mean value in X, Y and Z directions
+    - Value Range: [-1,1], no unit.
+- fbodyangularvelocity-standard deviation-xyz
+    - frequency domain body acceleration standard deviation in X, Y and Z directions
+    - Value Range: [-1,1], no unit.
+- fbodyaccelerationmagnitude-mean
+    - frequency domain body acceleration magnitude mean value
+    - Value Range: [-1,1], no unit.
+- fbodyaccelerationmagnitude-standarddeviation
+    - frequency domain body acceleration magnitude standard deviation
+    - Value Range: [-1,1], no unit.
+- fbodyaccelerationjerkmagnitude-mean
+    - frequency domain body acceleration Jerk signals magnitude mean value
+    - Value Range: [-1,1], no unit.
+- fbodyaccelerationjerkmagnitude-standarddeviation
+    - frequency domain body acceleration Jerk signals standard deviation
+    - Value Range: [-1,1], no unit.
+- fbodyangularvelocitymagnitude-mean
+    - frequency domain angular velocity magnitude mean value
+    - Value Range: [-1,1], no unit.
+- fbodyangularvelocitymagnitude-standarddeviation
+    - frequency domain body angular velocity magnitude standard deviation
+    - Value Range: [-1,1], no unit.
+- fbodyangularvelocityjerkmagnitude-mean
+    - frequency domain body angular velocity Jerk signals magnitude mean value
+    - Value Range: [-1,1], no unit.
+- fbodyangularvelocityjerkmagnitude-standarddeviation
+    - frequency domain body angular velocity Jerk signals magnitude standard deviation
+    - Value Range: [-1,1], no unit.
 
 ## The Process Of Cleaning Up The Data
 
@@ -126,5 +136,5 @@ These signals were used to estimate variables of the feature vector for each pat
 
 ## Notes: 
 
-* Features are normalized and bounded within [-1,1].
-* Each feature vector is a row on the text file.
+- Features are normalized and bounded within [-1,1].
+- Each feature vector is a row on the text file.
