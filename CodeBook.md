@@ -12,6 +12,21 @@ Subsequently, the body linear accelerationeleration and angular velocity were de
 
 Finally a Fast Fourier Transform (FFT) was applied to some of these signals producing fbodyacceleration-xyz, fbodyaccelerationjerk-xyz, fbodyangularvelocity-xyz, fbodyaccelerationjerkmagnitude, fbodyangularvelocitymagnitude, fbodyangularvelocityjerkmagnitude. (Note the 'f' to indicate frequency domain signals). 
 
+## The Process Of Cleaning Up The Data
+
+1. Merges the data from X_train.txt, X_test.txt, y_train.txt, y_test.txt, subject_train.txt, subject_test.txt 
+  to create one data set.
+
+2. Extracts only the measurements on the mean and standard deviation for each measurement.
+
+3. Uses descriptive activity names("Walking", "Walking_Upstairs",  "Walking_Downstairs", "Sitting", "Standing", "Laying") 
+  to name the activities in the data set.
+
+4. Uses changed names from 'Features.txt' file set variable names.
+    * chage include: lower the letters; remove parentheses; translate the abbreviation.
+    
+5. From the data set in step 4, creates a second, independent tidy data set with the average of variable for each activity and each subject.
+
 ## Variable Name And Description
 
 - activity
@@ -122,21 +137,6 @@ Finally a Fast Fourier Transform (FFT) was applied to some of these signals prod
 - fbodyangularvelocityjerkmagnitude-standarddeviation
     - frequency domain body angular velocity Jerk signals magnitude standard deviation
     - Value Range: [-1,1], no unit.
-
-## The Process Of Cleaning Up The Data
-
-1. Merges the data from X_train.txt, X_test.txt, y_train.txt, y_test.txt, subject_train.txt, subject_test.txt 
-  to create one data set.
-
-2. Extracts only the measurements on the mean and standard deviation for each measurement.
-
-3. Uses descriptive activity names("Walking", "Walking_Upstairs",  "Walking_Downstairs", "Sitting", "Standing", "Laying") 
-  to name the activities in the data set.
-
-4. Uses changed names from 'Features.txt' file set variable names.
-    * chage include: lower the letters; remove parentheses; translate the abbreviation.
-    
-5. From the data set in step 4, creates a second, independent tidy data set with the average of variable for each activity and each subject.
 
 ## Notes: 
 
