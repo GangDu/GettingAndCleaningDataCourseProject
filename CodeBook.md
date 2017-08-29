@@ -134,7 +134,8 @@ Finally a Fast Fourier Transform (FFT) was applied to some of these signals prod
   to name the activities in the data set.
 
 4. Uses changed names from 'Features.txt' file set variable names.
-    * chage include: lower the letters; remove parentheses; translate the abbreviation   
+    * chage include: lower the letters; remove parentheses; translate the abbreviation.
+    
 5. From the data set in step 4, creates a second, independent tidy data set with the average of variable for each activity and each subject.
 
 ## Notes: 
