@@ -10,6 +10,10 @@
 * subject_test.txt
 * features.txt
 
+You can download these files from this web site:
+https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+this is a zip file, you should unzip it and extract required files, the file name is shown above.
+
 ## How to use run_analysis.R script
 
 1. Place the required files and run_analysis.R in the same folder.
