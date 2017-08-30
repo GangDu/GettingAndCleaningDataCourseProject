@@ -11,7 +11,7 @@
 * features.txt
 
 You can download these files from this web site:
-https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip \n
+https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip    
 This is a zip file, you should unzip it and extract required files, the file name is shown above.
 
 ## How to use run_analysis.R script
