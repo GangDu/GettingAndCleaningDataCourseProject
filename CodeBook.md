@@ -141,3 +141,4 @@ Finally a Fast Fourier Transform (FFT) was applied to some of these signals prod
 ## Notes: 
 
 - Variables are normalized and bounded within [-1,1].
+- Each feature vector is a row on the text file.
