@@ -140,4 +140,4 @@ Finally a Fast Fourier Transform (FFT) was applied to some of these signals prod
 
 ## Notes: 
 
-- Features are normalized and bounded within [-1,1].
+- Variables are normalized and bounded within [-1,1].
